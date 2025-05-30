@@ -1,2 +1,7 @@
+Variant 1
 (t>>6&t<<2)/cbrt(t-random()*t>>4&t<<2)
 https://dollchan.net/bytebeat/#4AAAA+kXTKLGzM1MrsbEx0tRPTioq0SjRLUrMS8nP1dDUAkqZQKQA
+
+Variant 2
+t*cbrt(t>>2&t<<8&random()+t)/256
+https://dollchan.net/bytebeat/#4AAAA+kUr0UpOKirRKLGzM1IrsbGxUCtKzEvJz9XQ1C7R1DcyNQMA
