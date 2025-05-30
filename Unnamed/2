@@ -1,0 +1,7 @@
+Variant 1
+t+(t/(abs(t>>6&t<<2)/cos(t>>4^t<<8))*sin(t>>8%tan(t<<2^t>>4)))+t>>4^t<<2%t<<2&t>>4
+https://dollchan.net/bytebeat/#4AAAA+kUr0dYo0ddITCrWKLGzM1MrsbEx0tRPzgdzTeKAXAtNTa3izDwQ30K1JBHIACqJA8lqampqw1QZqYIINRAXAA
+
+Variant 2
+t+(t/(abs(t>>6&t<<2)/cos(t>>4^t<<8))*sin(t>>8%tan(t<<2^t>>4)))+t>>4^(t<<2%t<<2&t>>4)/(t>>8&t<<(4*t<<4))
+https://dollchan.net/bytebeat/#4AAAA+kUr0dYo0ddITCrWKLGzM1MrsbEx0tRPzgdzTeKAXAtNTa3izDwQ30K1JBHIACqJA8lqampqg1WBhVRBhBpYXB+sGGSWhokWkASqBAA
