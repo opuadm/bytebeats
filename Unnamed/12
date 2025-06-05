@@ -2,14 +2,19 @@ t*(t>>11&t<<4>>4)/32
 Default: 8000Hz
 Alt: 11025Hz, 22050Hz, 32000Hz, 44100Hz
 https://dollchan.net/bytebeat/#4AAAA+kUr0dIosbMzNFQrsbExsbMz0dQ3NgIA
-----
+
 Variant 2:
 t<<t*(t>>11&t<<4>>4)/32
 Default: 8000Hz
 Alt: 11025Hz
 https://dollchan.net/bytebeat/#4AAAA+kUrsbEp0dIosbMzNFQrsbExsbMz0dQ3NgIA
-----
+
 Variant 3:
 a = (t*(t>>11&t<<4>>4)/32),
 a >> 2 ^ t >> a
 https://dollchan.net/bytebeat/#4AAAA+kVLVLBV0CjR0iixszM0VCuxsTGxszPR1Dc20tThSlSws1MwUohTKAExEgE
+
+Variant 4:
+a = (t*(t>>11&t<<4>>4)/32),
+t >> 4 & a >> 2 | (t / 16) << a
+https://dollchan.net/bytebeat/#4AAAA+kVLVLBV0CjR0iixszM0VCuxsTGxszPR1Dc20tThKlGws1MwUVBTSAQxjBRqgCoV9BUMzTQVbGwUEgE
