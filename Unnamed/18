@@ -1,0 +1,6 @@
+cbrt(t>>8&t<<2^t>>6)*1024
+https://dollchan.net/bytebeat/#4AAAA+kVLTioq0Sixs7NQK7GxMYoDssw0tQwNjEwA
+
+Variant 2:
+cbrt(t>>8&t<<2^t>>6)*1024+t
+https://dollchan.net/bytebeat/#4AAAA+kVLTioq0Sixs7NQK7GxMYoDssw0tQwNjEy0SwA
