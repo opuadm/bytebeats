@@ -1,2 +1,6 @@
 ((t << 4 & t * 4 ^ (t >> 4 & t << 6 ^ t >> t / 128)) - (abs(t >> 8 & t << 1) / 2)) / (t >> 8 & t << 8)
 https://dollchan.net/bytebeat/#4AAAA+kXT0ChRsLFRMFFQUyhR0ALScQpAETs7qAhQygwoBBYpUdBXMDSy0NRU0FXQSEwqhqizgKkz1ATKG2mCSDQZC00A
+
+Variant 2:
+((t << 4 & t * 4 ^ (t >> 4 & t << 6 ^ t >> t / 128)) - (abs(t >> 8 & t << 1) / 2))
+https://dollchan.net/bytebeat/#4AAAA+kXT0ChRsLFRMFFQUyhR0ALScQpAETs7qAhQygwoBBYpUdBXMDSy0NRU0FXQSEwqhqizgKkz1ATKG2lqAgA
