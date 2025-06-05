@@ -1,4 +1,9 @@
 t*(t>>11&t<<4>>4)/32
 Default: 8000Hz
-Alternatives: 11025Hz, 22050Hz, 32000Hz, 44100Hz
+Alt: 11025Hz, 22050Hz, 32000Hz, 44100Hz
 https://dollchan.net/bytebeat/#4AAAA+kUr0dIosbMzNFQrsbExsbMz0dQ3NgIA
+Variant 2:
+t<<t*(t>>11&t<<4>>4)/32
+Default: 8000Hz
+Alt: 11025Hz
+https://dollchan.net/bytebeat/#4AAAA+kUrsbEp0dIosbMzNFQrsbExsbMz0dQ3NgIA
