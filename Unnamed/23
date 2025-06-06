@@ -1,2 +1,6 @@
 t/cos(t>>12)&t>>4^t<<4&t>>8
 https://dollchan.net/bytebeat/#4AAAA+kUr0U/OL9YosbMzNNJUA1ImcSU2NiYglgUA
+
+Variant 2:
+t/cos(t>>12&t<<2^t>>4)&t>>4^t<<4&t>>8
+https://dollchan.net/bytebeat/#4AAAA+kUr0U/OL9YosbMzNFIrsbExigMyTTTVQGQckG8CYlkAAA
