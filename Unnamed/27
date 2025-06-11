@@ -1,0 +1,6 @@
+(t>>6|t<<2)^(t>>1&t>>4^t<<2)>>tan(t>>8&t<<4)
+https://dollchan.net/bytebeat/#4AAAA+kXTKLGzM6spsbEx0ozTALIN1YCESRxYwM6uJDEPJGihBuSbaAIA
+
+Variant 2:
+(t>>6|t<<2)^(t>>1&t>>4^t<<2)>>tan(t>>8&t<<2)
+https://dollchan.net/bytebeat/#4AAAA+kXTKLGzM6spsbEx0ozTALIN1YCESRxYwM6uJDEPJGihBuYDAA
