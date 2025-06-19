@@ -1,0 +1,14 @@
+t*(abs(t>>8&t<<2/t>>12))
+https://dollchan.net/bytebeat/#4AAAA+kUr0dJITCrWKLGzs1ArsbEx0geyDI00NQE
+
+Variant 2:
+t*(abs(t>>8&t<<2/t>>12)*t>>4&t<<2)
+https://dollchan.net/bytebeat/#4AAAA+kUr0dJITCrWKLGzs1ArsbEx0geyDI00tYCUCVhAEwA
+
+Variant 3:
+t*(abs(t>>8&t<<2/t>>14)^(t>>6&t<<2))
+https://dollchan.net/bytebeat/#4AAAA+kUr0dJITCrWKLGzs1ArsbEx0geyDE0040AiZmARTU0A
+
+Variant 4:
+t*(abs(t>>8&t<<2/t>>12)|(t>>6&t<<2))
+https://dollchan.net/bytebeat/#4AAAA+kUr0dJITCrWKLGzs1ArsbEx0geyDI00a0AiZmARTU0A
