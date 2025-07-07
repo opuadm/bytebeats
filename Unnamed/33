@@ -1,0 +1,5 @@
+a = t*(sin(t>>2&t<<2))*0x33B|t>>4&t<<2,
+b = t*(tan(t>>4&t<<2)-t>>6&t<<4),
+c = ((t>>6&t<<1)*4450200.34892)/(0xB3*abs(t>>6&t<<2^t>>4))/1024<<t>>4,
+(b+a)/c
+https://dollchan.net/bytebeat/#4AAAA+kU9jDEOwjAQBHu/IhW6NQ6+nA8UJJMiD0GyU9HQxEUKHo+dCLrZ0WhT9+iKpfX1pjJNcioxCmB5C2H+VKO7cSYfXUl7d1j0FW8NFc4stSD6mQFW9crCfAk63gWeeJuDTXn9N/JsV4AfWDTGNpyhfE7wyxc
