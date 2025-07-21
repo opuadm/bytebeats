@@ -1,2 +1,6 @@
 ((t>>4*t)+t>>2^t<<4)>>2
 https://dollchan.net/bytebeat/#4AAAA+kXT0CixszPRKtHUBtJGcSU2NiaaQAYA
+
+Variant 2:
+((((t>>4*t)+t>>2^t<<4)>>2)/t)*128
+https://dollchan.net/bytebeat/#4AAAA+kXT0NDQKLGzM9Eq0dQG0kZxJTY2JppAhqZ+iaaWoZEFAA
