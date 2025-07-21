@@ -4,3 +4,7 @@ https://dollchan.net/bytebeat/#4AAAA+kXT0CixszPRKtHUBtJGcSU2NiaaQAYA
 Variant 2:
 ((((t>>4*t)+t>>2^t<<4)>>2)/t)*128
 https://dollchan.net/bytebeat/#4AAAA+kXT0NDQKLGzM9Eq0dQG0kZxJTY2JppAhqZ+iaaWoZEFAA
+
+Variant 3:
+(((((t>>4*t)+t>>2^t<<4)>>2)/t)*512)^(t>>7&t<<2)
+https://dollchan.net/bytebeat/#4AAAA+kXT0ACCEjs7E60STW0gbRRXYmNjoglkaOqXaGqZGhppxoHkzdWA4kaaAA
