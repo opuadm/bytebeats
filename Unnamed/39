@@ -1,0 +1,2 @@
+hypot(((t>>8)*tanh((t>>6&t<<2*t>>8)&t>>5+t>>2))|(sign(t>>7&t<<2)*1024),(t>>8|t<<1))
+https://dollchan.net/bytebeat/#4AAAA+kXLqCzIL9HQ0Cixs7PQ1CpJzMsAs83USmxsjLTAompA0lQbSBhpatZoFGem54FUmINVaGoZGhiZaOqA9dcARQw1NQE
