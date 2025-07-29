@@ -24,3 +24,10 @@ b = max(t>>8&t<<2,t>>9&t<<4)^min(t>>2&t<<1+t<<2,t>>8&t<<2) - ((a >> t) >> t),
 (a >> t) >> b
 16000Hz
 https://dollchan.net/bytebeat/#4AAAAekZNTrsOwyAM3PMVTBUHRDxKJCqlfEoksnVIJg8Z+vG1QZF6g3Xns89u6q10B9WaNlrXhJnpArNEeK3Dla0mn0sKACxbGUZTO/tGlGn/DAx2zWh9uRbATTuHH+2SbnlItGP2EpaxHZ+z3xQZ7e2OOaiZv2qqVkUY1U3/ev8B
+
+Variant 6:
+a = ((((((t>>2^t<<2)-t>>5)*51)/((0x4+(t/4820)))+t>>4)*(tan((t>>12)-t/30000)))*(t>>12|t>>8)),
+b = max(t>>8&t<<2,t>>9&t<<4)^min(t>>2&t<<1+t<<2,t>>8&t<<2) - ((a >> t) >> t),
+(a >> t << b) * (t >> b)
+16000Hz
+https://dollchan.net/bytebeat/#4AAAAekY1TrsOwyAM3PMVnioOiHiUSFSifEok2DokE0OGfnwNpDdYdz777EJvEgMtZ7+3lDxWphvk5mCEsFdQopkQvQWg2AqQopVzbLg+bZ6Wwa6crS/XCOilcvhRrt6Njx6tmb06C9iPzzludunU351zoJW/KpQzNcyql1tTSlRBkkTruuIH
