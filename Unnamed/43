@@ -9,4 +9,11 @@ https://dollchan.net/bytebeat/#4AAAAekbT0NDQKLGzM4orsbEx0tQFMk01tUwNNfU1DCpMtDVK
 
 Variant 3:
 (((((t>>2^t<<2)-t>>5)*51)/((0x4+(t/4820)))+t>>4)*(tan((t>>12)-t/30000)))*(t>>12|t>>8)
+16000Hz
 https://dollchan.net/bytebeat/#4AAAAekbT0ACCEjs7o7gSGxsjTV0g01RTy9RQU19Dw6DCRFujRN/EwshAU1NTGyhloqmlUZKYB9ZhCFKtb2wABEBZLYhQDZC00AQA
+
+Variant 4:
+a = ((((((t>>2^t<<2)-t>>5)*51)/((0x4+(t/4820)))+t>>4)*(tan((t>>12)-t/30000)))*(t>>12|t>>8)),
+max(t>>8&t<<2,t>>9&t<<4)^min(t>>2&t<<1+t<<2,t>>8&t<<2) - (a >> t)
+16000Hz
+https://dollchan.net/bytebeat/#4AAAAekY1TbsOgzAM3PsVnipfAsqjQUolmk9BytgBJg8M/fjaQdxgne9hd/oQD0hreZN1zZiVLnBLQmCOZ/EsodQcAXi1ChxLP0YjWTq8okJdd0k/nRWYHns/TalPOzspexsr2PbvMf7ZmvztXjnQTNypNRL8AQ
