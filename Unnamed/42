@@ -1,2 +1,6 @@
 (t>>8|t<<2)+(0xFFB2)/(t>>0&t<<2)
 https://dollchan.net/bytebeat/#4AAAA+kXTKLGzs6gpsbEx0tTWMKhwc3My0tTXAAoaqIEFAQ
+
+Variant 2:
+(t>>8|t<<2)+(0xFFB2)/t>>0&(t<<2)
+https://dollchan.net/bytebeat/#4AAAA+kXTKLGzs6gpsbEx0tTWMKhwc3My0tTXAAoaqIEFAQ
