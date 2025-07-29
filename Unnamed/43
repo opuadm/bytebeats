@@ -17,3 +17,10 @@ a = ((((((t>>2^t<<2)-t>>5)*51)/((0x4+(t/4820)))+t>>4)*(tan((t>>12)-t/30000)))*(t
 max(t>>8&t<<2,t>>9&t<<4)^min(t>>2&t<<1+t<<2,t>>8&t<<2) - (a >> t)
 16000Hz
 https://dollchan.net/bytebeat/#4AAAAekY1TbsOgzAM3PsVnipfAsqjQUolmk9BytgBJg8M/fjaQdxgne9hd/oQD0hreZN1zZiVLnBLQmCOZ/EsodQcAXi1ChxLP0YjWTq8okJdd0k/nRWYHns/TalPOzspexsr2PbvMf7ZmvztXjnQTNypNRL8AQ
+
+Variant 5:
+a = ((((((t>>2^t<<2)-t>>5)*51)/((0x4+(t/4820)))+t>>4)*(tan((t>>12)-t/30000)))*(t>>12|t>>8)),
+b = max(t>>8&t<<2,t>>9&t<<4)^min(t>>2&t<<1+t<<2,t>>8&t<<2) - ((a >> t) >> t),
+(a >> t) >> b
+16000Hz
+https://dollchan.net/bytebeat/#4AAAAekZNTrsOwyAM3PMVTBUHRDxKJCqlfEoksnVIJg8Z+vG1QZF6g3Xns89u6q10B9WaNlrXhJnpArNEeK3Dla0mn0sKACxbGUZTO/tGlGn/DAx2zWh9uRbATTuHH+2SbnlItGP2EpaxHZ+z3xQZ7e2OOaiZv2qqVkUY1U3/ev8B
