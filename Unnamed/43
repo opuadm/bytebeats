@@ -31,3 +31,11 @@ b = max(t>>8&t<<2,t>>9&t<<4)^min(t>>2&t<<1+t<<2,t>>8&t<<2) - ((a >> t) >> t),
 (a >> t << b) * (t >> b)
 16000Hz
 https://dollchan.net/bytebeat/#4AAAAekY1TrsOwyAM3PMVnioOiHiUSFSifEok2DokE0OGfnwNpDdYdz777EJvEgMtZ7+3lDxWphvk5mCEsFdQopkQvQWg2AqQopVzbLg+bZ6Wwa6crS/XCOilcvhRrt6Njx6tmb06C9iPzzludunU351zoJW/KpQzNcyql1tTSlRBkkTruuIH
+
+Variant 7:
+a = ((((((t>>2^t<<2)-t>>5)*51)/((0x4+(t/4820)))+t>>4)*(tan((t>>12)-t/30000)))*(t>>12|t>>8)),
+b = max(t>>8&t<<2,t>>9&t<<4)^min(t>>2&t<<1+t<<2,t>>8&t<<2) - ((a >> t) >> t),
+c = (a >> t << b) * (t >> b),
+(c >> a << b)
+16000Hz
+https://dollchan.net/bytebeat/#4AAAAekY1jj0OwyAMhfecwlPlB0QhKZFSiXKUSJCpQzIxZOjha4PqwXp+n/8yvYlb1JSWvca4YBS5wqwzJmZ/B8t1CtviAVhBAYZrvtrErN3T00sINd36St4ANxRZfuZb3e2hq52ol6qA/fxc7aaWs/3T3gca5atMKVFFz2449NXuUYxUQIa4al2E8qEqd/ID
