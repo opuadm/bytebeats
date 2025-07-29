@@ -1,6 +1,8 @@
 ((((t>>2^t<<2)-t>>5)*51)/(0x4+(t/4820)))*(t&tan((t>>12)-t/30000))
+16000Hz
 https://dollchan.net/bytebeat/#4AAAAekbT0NDQKLGzM4orsbEx0tQFMk01tUwNNfU1DCpMtDVK9E0sjAw0NTW1NErUShLzwIoNQQr1jQ2AQFMTAA
 
 Variant 2:
 ((((t>>2^t<<2)-t>>5)*51)/(0x4+(t/4820)))*(tan((t>>12)-t/30000))
+16000Hz
 https://dollchan.net/bytebeat/#4AAAAekbT0NDQKLGzM4orsbEx0tQFMk01tUwNNfU1DCpMtDVK9E0sjAw0NTW1NEoS88BKDUHK9I0NgEBTEwA
