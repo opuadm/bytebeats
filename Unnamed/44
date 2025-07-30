@@ -26,3 +26,10 @@ b = (a - (t >> 6 ^ a)),
 b >> b
 32000Hz
 https://dollchan.net/bytebeat/#4AAAA+kZLVLBV0NAo0dLIqCzIL9EosbMzNIgrsbEx0gExjdRATE1NTW0wT1OHKwmkPlFBV0GjRMHOTsFMIU4hURMsDuQlAQA
+
+Variant 6:
+a = ((t*(hypot(t>>10^t<<2,t>>12&t<<2)))+t>>12),
+b = (a - (t >> 6 ^ a)),
+b >> (a / t) >> (t / b)
+32000Hz
+https://dollchan.net/bytebeat/#4AAAA+kYdyisOgDAQBFDPKUaRHSgBKlCwR2nSKhyIMdyetu7NJ+OCmSa7v/eRyX3fks4zhsY4NpKce2IYSvtnLDDBHQcSMntfUx1WiJ2qLPwB
