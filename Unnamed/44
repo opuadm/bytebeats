@@ -17,5 +17,11 @@ Variant 4:
 a = ((t*(hypot(t>>10^t<<2,t>>12&t<<2)))+t>>12),
 b = (a - (t >> 6 ^ a)),
 b
-32000Hz
+8000Hz, 32000Hz
 https://dollchan.net/bytebeat/#4AAAA+kZLVLBV0NAo0dLIqCzIL9EosbMzNIgrsbEx0gExjdRATE1NTW0wT1OHKwmkPlFBV0GjRMHOTsFMIU4hURMkDgA
+
+Variant 5:
+a = ((t*(hypot(t>>10^t<<2,t>>12&t<<2)))+t>>12),
+b = (a - (t >> 6 ^ a)),
+b >> b
+https://dollchan.net/bytebeat/#4AAAA+kZLVLBV0NAo0dLIqCzIL9EosbMzNIgrsbEx0gExjdRATE1NTW0wT1OHKwmkPlFBV0GjRMHOTsFMIU4hURMsDuQlAQA
