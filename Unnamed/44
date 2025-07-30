@@ -1,2 +1,6 @@
 ((t*(hypot(t>>10^t<<2,t>>12&t<<2)))+t>>2)
 https://dollchan.net/bytebeat/#4AAAA+kbT0CjR0sioLMgv0SixszM0iCuxsTHSATGN1EBMTU1NbSDPSBMA
+
+Variant 2:
+((t*(hypot(t>>10^t<<2,t>>12&t<<2)))+t>>12)
+https://dollchan.net/bytebeat/#4AAAA+kbT0CjR0sioLMgv0SixszM0iCuxsTHSATGN1EBMTU1NbTBPEwA
