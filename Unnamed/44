@@ -1,6 +1,14 @@
 ((t*(hypot(t>>10^t<<2,t>>12&t<<2)))+t>>2)
+32000Hz
 https://dollchan.net/bytebeat/#4AAAA+kbT0CjR0sioLMgv0SixszM0iCuxsTHSATGN1EBMTU1NbSDPSBMA
 
 Variant 2:
 ((t*(hypot(t>>10^t<<2,t>>12&t<<2)))+t>>12)
+32000Hz
 https://dollchan.net/bytebeat/#4AAAA+kbT0CjR0sioLMgv0SixszM0iCuxsTHSATGN1EBMTU1NbTBPEwA
+
+Variant 3:
+((t*(hypot(t>>10^t<<2,t>>12&t<<2)))+t>>12)/t
+32000Hz
+Floatbeat
+https://dollchan.net/bytebeat/#4AgAA+kbT0CjR0sioLMgv0SixszM0iCuxsTHSATGN1EBMTU1NbTBPU78EAA
