@@ -1,0 +1,24 @@
+astr = "Wow am very Happy",
+bstr = "IPTV service provider",
+cstr = "$$$$$*!!$$",
+
+ainst = astr.charCodeAt(
+  (
+    ((t & (t >> 6)) & 12) + (t >> 2) * ((t >> 14 & 6) ^ (t >> 18 & 2))
+  ) % (astr.length)
+),
+
+binst = bstr.charCodeAt(
+  (
+    ((t & (t >> 8)) & 4 ^ 20) + t + (t / 6) * ((t >> 8 & 16) ^ (t >> 7 & 17))
+  ) % (bstr.length)
+),
+
+cinst = cstr.charCodeAt(
+  (
+    (t & (t >> 14)) + ((t * 1.058) >> t) * ((t >> 9 & 12) ^ (t >> 12 & 18))
+  ) % (cstr.length)
+),
+
+(ainst + binst + cinst) / 2 | (t >> 17 ? t >> 4 : t >> 10 >= 124 ? 120 : 0)
+https://dollchan.net/bytebeat/#4AAAA+kWNkVFLwzAUhd/7K85Gld5OZhPqWoVVxBd980H0TUi74Aq6ljRUBv54b9q4joFgoem954R7vqSqswZrzF+bL6hP9Nrs8aDadj+/CErvPT49v6DTpq8rjdY0fb3Rhv3K+6F74tksDFkMVL3rLMuK3WW1Vea+2eg7GwWAe3mNLM7BS1FgRcS1kISFV7iMhy1ci5TNFeHNeyLnXhLxGMIZoiHiQ+/e7ZYC4uzSZ5f/yc6H7JSny8Tl25Hh0iUeEFyiOELIXJ9NCOUpQuURqj8RJgKR0nBw7mKIZXKVk5PtUf61v57DFUgn5BNAdQoQjT9ggdJ/ByLic0l8/07JcIuhSnEzFiJBsebxKTtCJiwn9AM
