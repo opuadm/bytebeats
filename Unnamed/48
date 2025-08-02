@@ -1,0 +1,13 @@
+astr = "2*#)!948$(@📢📢⏒⌂)3_++_%%__+@||}}||}}||",
+bstr = "฿₷‿⁒‿⌁’‾‾⁐⁔⏕⌂⌂÷©℃℃",
+
+aa = astr.charCodeAt(
+	t >> 6 & t << 2
+) & astr.length * (astr.length >> 2),
+
+ba = astr.charCodeAt(
+	t >> 5 & t << 6 + abs(astr.length % (t >> 13))
+) % astr.length,
+
+(((aa * (t * (aa / 32))) + ba) & (t << 2)) + tan(t >> 8 & t << 2 + ba)
+https://dollchan.net/bytebeat/#4AAAA+kVLLC4pUrBVUDLSUtZUtDSxUNFw+DB/8iIQftQ/6VFPk6ZxvLZ2vKpqfLy2Q01NbS0EK+lwJUF1Ptix/1HT9kcN+x81TgKRPY2PGmY+atgHQo0THjVOedQ/FWgOEB3efmjlo5ZmIAJq50pMBOpOBBqil5yRWOScn5LqWKLBxVmiYGenYKagplCiYGOjYMSlCWSCVeWk5qWXZChoKWggc4GKjTSBpiXhMc0UZpqZgrZCYlIxigGqChpgRYbGmppAy1SRLQOaq6GhAXSoFkgRyOZEBX0FYyNNTU2gSUmJILdpQNwJFilJzIMYZgF3P0QdAA
