@@ -1,0 +1,24 @@
+astr = "102030))2__40582_!###@###!###!##!#!#!#",
+bstr = "llliiiiIIIIIIIIII||||||||||||IIIIIIIIIIIII??!?!?!?!?!?!?",
+cstr = "2 _            3 aaaaaaaa a a a vvv                   r    2118  0 0 0         8",
+
+ainst = astr.charCodeAt(
+	t >> 8 & t << 2 >> t
+)+(astr.length),
+
+binst = bstr.charCodeAt(
+	t >> 6 * t << 2 & t >> 7 & t >> 6
+)*(bstr.length * (tan(t>>7&t<<2))),
+
+cinst = cstr.charCodeAt(
+	t >> 6 & t << 2 + (t >> 2 & t << 1) + t >> 4
+)*(cstr.length >> astr.length),
+
+mix1 = (t >> 6 & t << 2) ^ astr.charCodeAt(
+	t >> 8 & t << 2 + bstr.charCodeAt(
+		ainst + binst * cinst / (binst >> t)
+	)
+),
+
+ainst * mix1 & (binst * cinst)
+https://dollchan.net/bytebeat/#4AAAA+kWNUdtOg0AQfWa/YigJ2QGjsK0tD0g1PvUnJMvaWBLEhG6ID368sxeQ1Jp4Jgu7h5lzdgZ51gM8wCrPRLbOEEVdb7L7QtRhFEWPtEK3QhurG9b4gq7rWsJhxtcChyX2+3ARJKG8hIAaFliD9AAX4zjCbwzmIfK8AMhsTChImsm2P2sSl+Rxq05yeP54PT5pzgINVQUFxKChLEGYk2aYcpvZHfs3fUISaLxAc11gC8kkYJSI2U2bLcOENz9qlMm17Lmuql2sy1IgGgPlDdRfBvMNU6o3lJioHImz1MZ4qYUXcReNvLefOdnwC1WEl38MJ73Sf+BmS5/sOwHXyR1wR5iBIguQ4fwfErC3iKcUX4Pf
