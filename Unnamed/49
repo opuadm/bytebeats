@@ -11,3 +11,18 @@ binst = astr.charCodeAt(
 
 ainst ^ binst
 https://dollchan.net/bytebeat/#4AAAA+kVLLC4pUrBVUArPL1dIzFUoSy2qVMhILCioVNLhSoLKxSMDD6BkZmoxshBQKVdiZl5xCVBxIlCPXnJGYpFzfkqqY4kGF2eJgp2dgqmCmkKJgo2NgpGCloIGWMhMQVsBzLDQBIqBWYZGXJpaGmAjclLz0ksyNLVKgGYn4TfbRCEOZrY21GxTsIlQ880ImQ9xe5wC2B4A
+
+Variant 2:
+astr = "Wow am very happy",
+bstr = "_____________Happies____________",
+
+ainst = astr.charCodeAt(
+	t >> 5 & t << 2 * (t >> 6 + t >> 8) * t >> 12
+)*(astr.length)*t,
+
+binst = astr.charCodeAt(
+	(t >> 4 ^ t << 2 + (t >> 5 * t + t >> 6) * t >> 12) * ainst
+)*(astr.length)*t,
+
+(ainst | (binst * ainst) + (t >> ainst << binst)) >> binst
+https://dollchan.net/bytebeat/#4AAAA+kV1j7EKwjAYhGfzFEcHSVoRLFocakFcfAM3JdVgC9qW9kcp+PCmf6J00EzH3eW7RHfUYoPgUD+h73iYtkehm6YPZiL32Wl89jYsTTe2bFXosurIlrW9Mz8Xut3VF7MlKSaELMMKUxDSFDFCSLYSRGCxVtZjtYiFCiUjbqa6UqFCsuz8L9uRljh+4JGHrxjpB5LRwCD5rT+XpPvGC9Jt+q76cl1upzhXavBYvgE
