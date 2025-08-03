@@ -1,0 +1,13 @@
+astr = "Wow am very happy",
+bstr = "_____________Happies____________",
+
+ainst = astr.charCodeAt(
+	t >> 5 & t << 2 * (t >> 6 + t >> 8) * t >> 12
+)*(astr.length)*t,
+
+binst = astr.charCodeAt(
+	t >> 4 ^ t << 2 + (t >> 5 * t + t >> 6) * t >> 12
+)*(astr.length)*t,
+
+ainst ^ binst
+https://dollchan.net/bytebeat/#4AAAA+kVLLC4pUrBVUArPL1dIzFUoSy2qVMhILCioVNLhSoLKxSMDD6BkZmoxshBQKVdiZl5xCVBxIlCPXnJGYpFzfkqqY4kGF2eJgp2dgqmCmkKJgo2NgpGCloIGWMhMQVsBzLDQBIqBWYZGXJpaGmAjclLz0ksyNLVKgGYn4TfbRCEOZrY21GxTsIlQ880ImQ9xe5wC2B4A
