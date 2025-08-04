@@ -36,3 +36,11 @@ ts = str.charCodeAt(t >> 8 & t << 2) % (str.length * (str.length * 1.022) / (t >
 
 (t>>6+t>>2^t>>6) * (ts * 2) | tan(ts)
 https://dollchan.net/bytebeat/#4AAAA+kVdjcEKwjAQRO/9iqGgJLXEJAfRWEPFsxdzF4qG9lCqJHv0493gTRaWHfbNTKaEE+qbUiGEY7BamwOPsUrlGNtr379n/ozOubqtKspMZ0rqMQ3p8nrGMwmC99hjDULXwUqsIAoyx2WkCc2fMkpbhrb4Ga2UnCvI+92Gl72XSxYXdzUl7gMaFlbyCw
+
+Variant 6:
+str = "R..SSS;S2001919112..see,M@@plSSSg:::",
+
+ts = str.charCodeAt(t >> 8 & t << 2) % (str.length * (str.length * 1.022) / (t >> 2)),
+
+(t>>6+t>>2^t>>6) * (ts * 2) | (tan(ts) * abs(ts) * (t / 128))
+https://dollchan.net/bytebeat/#4AAAA+kVdTUEKwjAQvPcVQ0FpakmbPUitNVQ8ezF3oWpoD6VKs0cf7wY9ycIyMzszG3jBAelFa+fc3lFVmZ2MIa2D98W5616TXIamadIiSTiIO/Ci72O/nJ4Pf+SMYS1qrMFoW5DCClm0TH4eeET+x4yuSEwlvkFSSnoztna7kUXXiFRMya881r0F9rPQqPa38EMSL2GoVuoD
