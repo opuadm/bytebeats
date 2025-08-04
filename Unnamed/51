@@ -4,3 +4,11 @@ ts = str.charCodeAt(t >> 8 & t << 2) % (str.length * (str.length * 1.022) / (t >
 
 (t>>6+t>>2^t>>6) / ts
 https://dollchan.net/bytebeat/#4AAAA+kUrLilSsFVQCtLTCw4Otg42MjAwtARCQyMlHS6ukmKgXHFJkV5yRmKRc35KqmOJRomCnZ2ChYKaQomCjY2CkaaCqoIGSElOal56SYaCFhrPUM/ACKhIXwGqUVMTaK5GiZ2dmTaQMIoDsUDSJcUA
+
+Variant 2:
+str = "R..SSS;S2001919112",
+
+ts = str.charCodeAt(t >> 8 & t << 2) % (str.length * (str.length * 1.022) / (t >> 2)),
+
+(t>>6+t>>2^t>>6) / ts
+https://dollchan.net/bytebeat/#4AAAA+kUrLilSsFVQCtLTCw4Otg42MjAwtARCQyMlHS6ukmKgXHFJkV5yRmKRc35KqmOJRomCnZ2ChYKaQomCjY2CkaaCqoIGSElOal56SYaCFhrPUM/ACKhIXwGi0UhTE2iuRomdnZk2kDCKA7FA0iXFAA
