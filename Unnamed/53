@@ -13,3 +13,7 @@ https://dollchan.net/bytebeat/#4AAAA+kjT0NAosbMziyuxsTHSVAMyTTRrNIAcYxDbQlNTX6NE
 Variant 4:
 (((t>>6^t<<2)&t>>4)|(t<<3&t>>8))+(t>>8&t<<2)/(t*(tan(t>>8&t<<4)/(sqrt(t>>8&t<<4*t>>2))))
 https://dollchan.net/bytebeat/#4AAAA+kXT0NAosbMziyuxsTHSVAMyTTRrNIAcYxDbQlNTGyRtoQaW1tco0dIoScyDC5kAhYoLi0oQAlpAlpEmEAAA
+
+Variant 5:
+(((t>>6^t<<2)&t>>4)|(t<<3&t>>8))+(t>>8&t<<2)/(t*(tan(t>>8&t<<4)/(sqrt(t>>8&t<<4*t>>2))))*t>>6
+https://dollchan.net/bytebeat/#4AAAA+kXT0NAosbMziyuxsTHSVAMyTTRrNIAcYxDbQlNTGyRtoQaW1tco0dIoScyDC5kAhYoLi0oQAlpAlpEmEIAYZgA
