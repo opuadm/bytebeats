@@ -9,3 +9,7 @@ Variant 3:
 (((t>>6^t<<2)&t>>4)|(t<<3&t>>8))/(t*(tan(t>>8&t<<4)/(sqrt(t>>8&t<<4))))
 512000Hz
 https://dollchan.net/bytebeat/#4AAAA+kjT0NAosbMziyuxsTHSVAMyTTRrNIAcYxDbQlNTX6NES6MkMQ+kykINKGECFCouLCpBEgACAA
+
+Variant 4:
+(((t>>6^t<<2)&t>>4)|(t<<3&t>>8))+(t>>8&t<<2)/(t*(tan(t>>8&t<<4)/(sqrt(t>>8&t<<4*t>>2))))
+https://dollchan.net/bytebeat/#4AAAA+kXT0NAosbMziyuxsTHSVAMyTTRrNIAcYxDbQlNTGyRtoQaW1tco0dIoScyDC5kAhYoLi0oQAlpAlpEmEAAA
