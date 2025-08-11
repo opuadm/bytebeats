@@ -1,2 +1,6 @@
 (t>>6^t<<2)&t>>4|(t<<3&t>>8)|(t*(tan(t>>8&t<<4)))
 https://dollchan.net/bytebeat/#4AAAA+kXTKLGzM4srsbEx0lQDMk1qNIBsYxDTQhPI1tIoSczTAPHUgOImmpqaAA
+
+Variant 2:
+(t>>6^t<<2)&t>>4|(t<<3&t>>8)|(t*(tan(t>>8&t<<4)/(sqrt(t>>8&t<<2))))
+https://dollchan.net/bytebeat/#4AAAA+kXTKLGzM4srsbEx0lQDMk1qNIBsYxDTQhPI1tIoSczTAPHUgOImmvoaxYVFJXABI00gAAA
