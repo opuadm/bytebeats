@@ -17,3 +17,7 @@ https://dollchan.net/bytebeat/#4AAAA+kXT0NAosbMziyuxsTHSVAMyTTRrNIAcYxDbQlNTGyRt
 Variant 5:
 (((t>>6^t<<2)&t>>4)|(t<<3&t>>8))+(t>>8&t<<2)/(t*(tan(t>>8&t<<4)/(sqrt(t>>8&t<<4*t>>2))))*t>>6
 https://dollchan.net/bytebeat/#4AAAA+kXT0NAosbMziyuxsTHSVAMyTTRrNIAcYxDbQlNTGyRtoQaW1tco0dIoScyDC5kAhYoLi0oQAlpAlpEmEIAYZgA
+
+Variant 6:
+(((t>>6^t<<2)&t>>4)|(t<<3&t>>8))+(t>>8&t<<2)/(t*(tan(t>>8&t<<4)/(sqrt(t>>8&t<<4*t>>2))))-t>>5
+https://dollchan.net/bytebeat/#4AAAA+kXT0NAosbMziyuxsTHSVAMyTTRrNIAcYxDbQlNTGyRtoQaW1tco0dIoScyDC5kAhYoLi0oQAlpAlpEmEOgCGaYA
