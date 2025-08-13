@@ -4,3 +4,7 @@ https://dollchan.net/bytebeat/#4AAAA+kXT0ACBEjs7C7USGxsjTS0Q2wTENtTUrAGyTUFsY10g
 Variant 2:
 (t>>8&t<<2)>>((((((t>>8&t<<2)*(t>>4&t<<1))|t>>5&t<<3-t>>>8)-(Math.random() * (2.1865 - 2.18) + 2.18))/t)*8)
 https://dollchan.net/bytebeat/#4AAAA+kXTKLGzs1ArsbEx0rSz0wADhIgWiG0CYhtqatYA2aYgtrEukGVnoamr4ZtYkqFXlJiXkp+roamgpaBhpGdoYWaqoKsAYmgqaENoTf0STS0LTQA
+
+Variant 3:
+((t*16>>16&t)|((((((t>>8&t<<2)*(t>>4&t<<1))|t>>5&t<<3-t>>>8)-(Math.random() * (2.1865 - 2.18) + 2.18))/t)*8)*8)
+https://dollchan.net/bytebeat/#4AAAA+kUlxjEKgDAQRNGrbCU7kShRE1KEvYGHCFjYqCBbenizOnyYx6wuJJGQOsXD31Qkd1rKBGdezAF4mqN59k2S4Xmtug93PbfrYJAjnoaQUyRPBlD/P0aFy9YL
