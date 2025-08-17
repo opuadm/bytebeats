@@ -1,0 +1,5 @@
+c = t ^ t ^ t >> 12 - t << 4,
+d = c + t,
+
+(d >> 4) | (c >> d)
+https://dollchan.net/bytebeat/#4AAAA+kVLVrBVKFGIg2I7OwVDIwVdIMvGRsFEhysFKJusoK1QosPFpZECkjbRVKhR0EgGMVM0AQ
