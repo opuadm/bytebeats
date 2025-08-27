@@ -1,0 +1,3 @@
+a = (t>>8^(t>>2&t>>1)>>t)<<(t>>6+t<<2),
+a/t>>abs(a)*t>>a
+https://dollchan.net/bytebeat/#4AAAA+kVLVLBV0Cixs7OIA5FGakDCUNPOrkTTxgYkYKZdYmNjpKnDlagP5CUmFWskamqBWAA
