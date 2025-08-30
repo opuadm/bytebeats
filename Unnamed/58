@@ -1,2 +1,6 @@
 (t>>4>>t&t<<2>>t)|(t>>t<<t>>t/128)
 https://dollchan.net/bytebeat/#4AAAA+kXTKLGzM7GzK1ErsbExAtKaNRpAESAHROobGlloAgA
+
+Variant 2:
+((t>>4>>t&t<<2>>t)|(t>>t<<t>>t/128))/16>>t<<2
+https://dollchan.net/bytebeat/#4AAAA+kXT0CixszOxsytRK7GxMQLSmjUgESAHROobGlloauobmoFFjAA
