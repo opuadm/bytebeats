@@ -8,3 +8,7 @@ https://dollchan.net/bytebeat/#4AACAO0fT0NAosbOzUCuxsTHS1C2p0SiJK9HU1C7OzAOJm4DE
 Variant 3:
 (((t>>8&t<<2)-t|(t^t))+sin(t>>4&t<<1))/(4&(t%(45+t)))-t>>2
 https://dollchan.net/bytebeat/#4AACAO0fT0NAosbOzUCuxsTHS1C2p0SiJK9HU1C7OzAOJm4DEDTU19TVM1DRKVDVMTLWBskB1dnZGAA
+
+Variant 4:
+(((t>>8&t<<2)-t|(t^t))+sin(t>>4&t<<1))/(4&(t%(45+t)))-t>>2<<2
+https://dollchan.net/bytebeat/#4AACAO0fT0NAosbOzUCuxsTHS1C2p0SiJK9HU1C7OzAOJm4DEDTU19TVM1DRKVDVMTLWBskB1dnZGQA0A
