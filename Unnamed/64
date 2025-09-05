@@ -26,3 +26,8 @@ Variant 7:
 a = (t>>4|t>>5&t<<2)/(((t>>4-t>>2+t>>6)-t>>4+t>>2)),
 (a >> 8 ^ a << 2) / t * a
 https://dollchan.net/bytebeat/#4AAAA+kUdyDsKgEAMANHeU0wliR8WwioWMUcRcoctPby7No9hkhtpEfXtHHNzNy0i/9o7tnZOHVlHmuo2SRLBxUPijimFxkJ+
+
+Variant 8:
+a = (t>>4|t>>5&t<<2)/(((t>>4-t>>2+t>>6)-t>>4+t>>2)),
+(a >> 8 ^ a << 2) / t * a + a
+https://dollchan.net/bytebeat/#4AAAA+kUdyLENgDAMRNGeKa5CNiGKZAVE4XgUJO/gMsPj0Dz9O8cAhVmfybWHqnAj+q+aSEluXtlXCvO5kcMMD144VCGMhsCRq8A/
