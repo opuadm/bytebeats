@@ -16,3 +16,8 @@ https://dollchan.net/bytebeat/#4AAAA+kXTKLGzM6kBEqZqJTY2Rpr6GhoaICFdIGGkDSTMNEFM
 Variant 5:
 (t>>4|t>>5&t<<2)/(((t>>4-t>>2+t>>6)-t>>4+t>>2))/((t>>4)/320)
 https://dollchan.net/bytebeat/#4AAAA+kXTKLGzM6kBEqZqJTY2Rpr6GhoaICFdIGGkDSTMNEFMExDTSBMkDeJp6hsbGWgCAA
+
+Variant 6:
+a = (t>>4|t>>5&t<<2)/(((t>>4-t>>2+t>>6)-t>>4+t>>2)),
+a >> 8 ^ a << 2
+https://dollchan.net/bytebeat/#4AAAA+kVLVLBV0CixszOpARKmaiU2Nkaa+hoaYCFdIGGkDSTMNEFMExDTSFNThytRwc5OwUIhTiFRwcZGwQgA
