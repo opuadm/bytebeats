@@ -1,0 +1,2 @@
+(((t*24-t/32+(t>>8&t<<2^t>>6))>>((t>>7&t)>>(t>>9^t<<2)<<2)*31.372)/((random() / t) - 200 + (120 / 4 - 8)))&((12*t)|(10*t-1280))
+https://dollchan.net/bytebeat/#4AAAA+kUVycEKwyAQhOFX2ZPMGIzrGhoLwUcJFHJNC2WPffjqYeDnGwAebUueqy3w3lvw47Bz1IPsHdP24DNHPc/5ci7WstbdmIHv6319blCyOCWJqcoiKKZDtgGNZMCA6PyhaPRUrCn5Bw
