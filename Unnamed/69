@@ -1,2 +1,8 @@
 (t|sqrt(hypot(t>>7^t<<2,t>>8&t<<2+t>>2,t>>6&t<<2)))*1.5
+16000Hz
 https://dollchan.net/bytebeat/#4AAAAekbTKKkpLiwq0cioLMgv0SixszOPK7GxMdIBsizUQCxtIAvMNQNzNTU1tQz1TAE
+
+Variant 2:
+(t|sqrt(hypot(t>>7^t<<2,t>>8&t<<2+t>>2,t>>6&t<<2)))*(1.5+t>>4)
+16000Hz
+https://dollchan.net/bytebeat/#4AAAAekbTKKkpLiwq0cioLMgv0SixszOPK7GxMdIBsizUQCxtIAvMNQNzNTU1tTQM9UxBwiaaAA
