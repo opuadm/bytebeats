@@ -1,0 +1,4 @@
+a = ((t * 7.9 & t) % 2 ? ((t>>8)*(3200/1.28349)*t>>12) : (t>>6&t<<2&(t>>4&t<<2))),
+b = a ? abs(t >> 8 & t << 2) % a : abs(t >> 6 & t << 2) % a,
+a % (b)
+https://dollchan.net/bytebeat/#4AAAA+kVVjEsKgDAMRPeeYjaWpoifKFql1rOkV7D3x8SF4GqGecwTnPC+ImDrdzhUQgvGZWPOkYKfeRyHqec4LzsFHScmHDC8upoSO6vLW4moa4oqRQ1SbhXnjGhepAQ2uej5Q+sfdY1o+EIP
