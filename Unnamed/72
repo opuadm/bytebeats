@@ -6,3 +6,9 @@ Variant 2:
 a = ((t>>6)>>2&t<<2^t>>4)^tan((t>>4&t<<2)/((t>>8-t>>2)&t<<2)|("t?>>483E22BAN2nMM@"[t>>8&t<<2]*32)),
 a * a
 https://dollchan.net/bytebeat/#4AAAA+kVLVLBV0NAosbMz07SzM1IrsbExigPyTDTjShLzwBImYEFNfTDHQhdIGGlChGo0lErsgQosjF2NjJwc/YzyfH0dlKJBysAKYrWMjTQ1dbgSFbQUEgE
+
+Variant 3:
+a = ((t>>6)>>2&t<<2^t>>4)^tan((t>>4&t<<2)/((t>>8-t>>2)&t<<2)|("t?>>483E22BAN2nMM@"[t>>8&t<<2]*32)),
+a2 = ((a * a) >> 4 | a >> a),
+a2 / a
+https://dollchan.net/bytebeat/#4AAAA+kUljTsKgEAMRHtPMVjIRhQhLmKh8QOWegFRyAWsttzDu8ZmmM+DUYxwLoh0JMJFGAa+U/J0B31s8FZSY6GvkzD9VXR5mBLQtxvzuhz87Pucnx9mwFW2TFRlynaiKKEEEXhE6Gf0XxvoCw
