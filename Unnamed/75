@@ -3,3 +3,10 @@ b = t >> 9 - a + (a * 30 + t >> 8),
 c = (b * t),
 c * 2
 https://dollchan.net/bytebeat/#4AAAA+kVLVLBV0Cixs7OsARIWmjpcSUCBEgU7OwVLBV2FRAVtBY1EBS0FYwMgCywMUpMM0pQEFC4Bc7QUjAA
+
+Variant 2:
+a = (t>>9|t>>8),
+b = t >> 9 - a + (a * 30 + t >> 8),
+c = (b * t),
+(c * 2) / (a >> 2)
+https://dollchan.net/bytebeat/#4AAAA+kVLVLBV0Cixs7OsARIWmjpcSUCBEgU7OwVLBV2FRAVtBY1EBS0FYwMgCywMUpMM0pQEFC4BcjSSgQwjTQV9kEqgAiNNAA
