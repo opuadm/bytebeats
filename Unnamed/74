@@ -11,3 +11,9 @@ Variant 3:
 a = (((t>>9&t<<2)-(t>>6&t<<2))|(t>>6&t<<2)),
 (a >> a) / 8
 https://dollchan.net/bytebeat/#4AAAA+kVLVLBV0NDQKLGzs1QrsbEx0tQFsc0gbM0aZI4Ol0aigp2dQqKmgr6CBQA
+
+Variant 4:
+a = (((t>>9&t<<2)-(t>>6&t<<2))|(t>>6&t<<2)),
+b = ((t >> 8 & t << 2) - (t >> 9 & t << 2)) / 2,
+((a >> a) & a) | b
+https://dollchan.net/bytebeat/#4AAAA+kVLVLBV0NDQKLGzs1QrsbEx0tQFsc0gbM0aZI4OVxJYcYmCnZ2ChYKaQomCjY2CkaaCrgJEzBIhpqmgr2Ckw6WhkQiSSNQEygCJGoUkAA
