@@ -1,0 +1,5 @@
+a = (t >> 7) & (t >> 6) ^ (t >> (6 * (t & (t >> 6 & t << 2))) & t >> 8),
+b = a + (t >> 6 + ((t >> 8) / 4)) / 2,
+c = (t >> 8 & t << 2) - b + (b * 32 + (t >> 9 & t << 2)),
+(((c + (t >> 7 & t << 2)) >> 6 << 1) * (c >> 8)) / 32
+https://dollchan.net/bytebeat/#4AAAA+kVNjkEKgDAMBO99xZ4k0YpYxSqoTxFsv+D/MdESvZShm+zkxAa6sO+IjKrgxDgK0oRa0SKhC+uKwMwPy+fM3iUpOtHYmBCVEB1G1jd4l803f01okXQhiWsIVrL8XN4RUbYo/qLXJ9yz3ppfqfqGcAM
