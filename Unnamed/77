@@ -1,0 +1,6 @@
+a = ((t>>4&t<<2)/(-((t>>6%t<<2^t>>8)&t<<2))*512),
+b = (a + (a * 2) * (a >> 8)),
+c = (b - (b / 2)),
+d = (b - (c / 32) * (t >> 8 & t << 2)),
+((b / d) * 4)
+https://dollchan.net/bytebeat/#4AAAA+kU9i0sKgDAMRPeeYjZKUhWxVnERcxTBzxF6f0xacDNM5uVdOECUVVOXRSJPNJZza/08re1cCYd1jjw0txsXeo+AyBbWVLGz0cfpjdFjMmrT+0+PTUs1cjHQIUOk/lFRXseJPw
