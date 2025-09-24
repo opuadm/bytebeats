@@ -1,0 +1,3 @@
+a = ((sqrt((((t>>8&t<<1)|(t>>7&t<<2))&(t>>4|(t>>7&t<<2)))&((t>>8&t<<2)-(t>>4&t<<2)))*8)+((t>>8&t<<2)^(t>>8&t<<1))),
+a - (t >> a & a << t) + a
+https://dollchan.net/bytebeat/#4AAAA+kVLVLBV0NAoLiwq0QCCEjs7C7USGxtDzRoQ2xzENtLUVANxTFCEgGJw1UaaumAFMCktC01tZNk4JHM1NXW4EhV0FTRKFOzsFBIV1IDYxkahRFNBWyERAA
