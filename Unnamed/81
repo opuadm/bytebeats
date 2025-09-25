@@ -1,2 +1,6 @@
 (((t % 48) < 32) ? -(t>>4&t<<2*(t>>4/t>>2)) : -(t>>8&t<<2))
 https://dollchan.net/bytebeat/#4AAAA+kXT0NAoUVBVMLHQVLBRMDbSVLBX0NUosbMzUSuxsTHSAjP1gYSRpqaCFUTKAiylqQkA
+
+Variant 2:
+(((t % 48) < 32) ? -(t>>4&t<<2*(t>>4/t>>2)) : -(t>>8&t<<2)) / (t >> 8 & t << 2)
+https://dollchan.net/bytebeat/#4AAAA+kUli0EKgEAMxL6Si0sryELdQ5FSP9X/Y1kvQ0IYESkOlivBbcrLJZW5RkXYuXH2mCrPn3yn9kl/M3EGRQSmHw
