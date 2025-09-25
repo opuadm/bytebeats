@@ -4,3 +4,8 @@ https://dollchan.net/bytebeat/#4AAAA+kXT0ChRsLNTsFCoUQAzDI00tTQ0dIsLi0o0SuzsLNRK
 Variant 2:
 ((t >> 8 | t >> 12)*((-sqrt(t>>8&t<<2))*8)) >> (t >> 6)
 https://dollchan.net/bytebeat/#4AAAA+kXT0ChRsLNTsFCoUQAzDI00tTQ0dIsLi0o0SuzsLNRKbGyMNDW1LDQ1QdIQ1WaaAA
+
+Variant 3:
+a = (((t >> 8 | t >> 12)*((-sqrt(t>>8&t<<2))*8)) >> ((t >> 6 ^ t >> 10 ^ t >> 14) / 4)),
+a + (a >> 4)
+https://dollchan.net/bytebeat/#4AAAA+kU9ijEKgDAQBHtfsZXcRkUNQa6I9xQhT1Cv9PESCXbDzBTsEBGHGRQPPlgjg8h0n5eLm2nvOUcyKFlz2zccbV9+SsSMRI5dwQApVSa+
