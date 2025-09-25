@@ -14,3 +14,8 @@ Variant 4:
 a = (((t >> 8 | t >> 12)*((-sqrt(t>>8&t<<2))*8)) >> ((t >> 6 ^ t >> 10 ^ t >> 14) / 4)),
 a * t
 https://dollchan.net/bytebeat/#4AAAA+kVLVLBV0NDQKFGws1OwUKhRADMMjTS1NDR0iwuLSjRK7Ows1EpsbIw0NbUsNDVB0lDlZgpxUOUGcJaJpoK+gommpg5XooKWQgkA
+
+Variant 5:
+a = (((t >> 8 | t >> 12)*((-sqrt(t>>8&t<<2))*8)) >> ((t >> 6 ^ t >> 10 ^ t >> 14) / 4)),
+a + ((t >> 8 & t << 2) - (t >> 6 & t << 2)) 
+https://dollchan.net/bytebeat/#4AAAA+kU9jEsOgCAQQ/eeoisyRYlKiGExchQTjqCy9PB+guyavtdmrBCRgpQQceELs6cVced+FCkpRVNUPWkj+eKqL9iqPrUUiBGBHLqMHu3XPFgVnnD4x60jbg
