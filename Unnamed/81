@@ -4,3 +4,7 @@ https://dollchan.net/bytebeat/#4AAAA+kXT0NAoUVBVMLHQVLBRMDbSVLBX0NUosbMzUSuxsTHS
 Variant 2:
 (((t % 48) < 32) ? -(t>>4&t<<2*(t>>4/t>>2)) : -(t>>8&t<<2)) / (t >> 8 & t << 2)
 https://dollchan.net/bytebeat/#4AAAA+kUli0EKgEAMxL6Si0sryELdQ5FSP9X/Y1kvQ0IYESkOlivBbcrLJZW5RkXYuXH2mCrPn3yn9kl/M3EGRQSmHw
+
+Variant 3:
+((((t % 48) < 32) ? -(t>>4&t<<2*(t>>4/t>>2)) : -(t>>8&t<<2)) ^ (t >> 8 & t << 2)) ^ (t >> 4 ^ t >> 6 ^ (t >> 7 % 20)) % (t >> 2)
+https://dollchan.net/bytebeat/#4AAAA+kVNjVEKgEAIRK8yP7toEIUttSxiN+kU3p/EIvqR5xtliIgcBa0zFJswTszkZq26qkyJSwxhxniinlHsF+LXDB0VDlX8ZQtK2D91RJGscVNeIXwD
