@@ -1,0 +1,2 @@
+((((-160 * t) % (t >> 6 & t << 2)) + (t >> 6 & t << 2))) | (t >> 10 & t << 2)
+https://dollchan.net/bytebeat/#4AAAA+kXT0NDQ0DU0M1DQUijRVFBV0ChRsLNTMFNQUyhRsLFRMNLUVNDGIqipUAMVNTRACAMA
