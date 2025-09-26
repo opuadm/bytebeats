@@ -1,0 +1,4 @@
+a = (((-(t>>8^t>>4)&(t<<2-(t>>8&t<<2)))/((t>>8^t<<2)-t>>4))/256),
+b = (((-(t>>9^t>>2)&(t<<4-(t>>9&t<<1)))/((t>>9^t<<1)-t>>3))/512),
+((a | b) >> 4) % ((t % 6) * (t >> 4 & t << 2))
+https://dollchan.net/bytebeat/#4AAAA+kVNjkEKgDAMBO++Yi+WrChiraJQ+xRB39CjjzexIl6WzbAMObBBRDrJKS27RqCTHKMvxFkl2cs7sLN7Zuz9NLOtzp9hNYMvhlCIGYbPsO7PaYZR2TR4NYgcuHASKSEQteqy5kw00GYUDhkxQn+5AQ
