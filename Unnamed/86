@@ -1,0 +1,2 @@
+((sqrt((t * t) >> 6)) / 2 | abs((t >> 8 & t << 2) | (t >> 6 & t << 2)))
+https://dollchan.net/bytebeat/#4AAAA+kXT0CguLCrR0ChR0FIo0VSws1Mw09RU0FcwUqhRSEwqBkkAxSwU1BRKFGxsFIw0geIQMTOEmKYmAA
