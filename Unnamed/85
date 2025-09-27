@@ -1,0 +1,4 @@
+a = ((t >> 4 ^ t >> 6) - ((((t % 12) < 4) ? (t >> 8 & t << 2) : -(t >> 8 & t << 2)) - ((t >> 4) | (t >> 8 & t << 2)))),
+b = (a >> (1 - (t >> 10 & t << 1))),
+b + (b >> 2)
+https://dollchan.net/bytebeat/#4AAAA+kVljUEKgDAMBO++Yi5KgxZsKSJS9SeCfYNHH2/T6smcwuxscrJizMW2ETgoyyTYDBW3OC9EgrBTtZkuazGSgwX7g7VcLwr3v5VnaJL+PTUxTgtFcuNnuVfqMUkTLw8
