@@ -5,3 +5,7 @@ Variant 2:
 ((sqrt((t * t) >> 6)) / 2 | abs((t >> 8 & t << 2) | (t >> 6 & t << 2))) / (sqrt((t * t) >> 6))
 3072000Hz
 https://dollchan.net/bytebeat/#4AACAO0rT0CguLCrR0ChR0FIo0VSws1Mw09RU0FcwUqhRSEwqBkkAxSwU1BRKFGxsFIw0geIQMTOEGFgHNoMA
+
+Variant 3:
+(((sqrt((t * t) >> 6)) / 2 | abs((t >> 8 & t << 2) | (t >> 6 & t << 2))) | (sqrt((t * t) >> 4)))
+https://dollchan.net/bytebeat/#4AAAA+kXT0NAoLiwq0dAoUdBSKNFUsLNTMNPUVNBXMFKoUUhMKgZJAMUsFNQUShRsbBSMNIHiEDEzhJgmWBTdIBOgOAA
