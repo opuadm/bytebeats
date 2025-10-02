@@ -1,0 +1,4 @@
+a = ((((t>>8%t<<4)|(t>>6&t<<2))/4)*(t>>8&t<<2)-(t>>10&t<<2)^(t>>8&t<<2&t>>6)),
+(((a >> 8) % a)) | (t >> 8 & t << 2)
+16000Hz
+https://dollchan.net/bytebeat/#4AAAAekZFjLsNgDAQQ3umcJMoRiAgilCK40ZByg5XZnjyKXD1bMsueBCaTDU7E0msnW/fOJJH4jq66ffO1znN+xe+T8htaU8FqsiEQyFREWwE8DCIIPID
