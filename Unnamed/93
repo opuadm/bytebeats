@@ -1,0 +1,8 @@
+a = ((((-t>>7&t<<2)^(t>>6&t<<2^t>>4))-(t>>6&t<<1))-(((t/24)%(t>>6^t<<2))^(t>>5&t<<2))%(t>>8&t<<2)),
+b = ((t>>10&t<<2)-((((t>>8^t<<2)|(t>>4-t<<2)&t>>4)/32)*(t>>10&t<<2&t>>4))),
+c = ((b >> 4) | (b >> 6)),
+d = (b / (a / 4)),
+e = (a / b),
+f = (((t % 5000) < 2500) ? (((t % 15000) < 7500) ? (((t % 50000) < 25000) ? (((t % 50000) < 25000) ? a : b) : c) : d) : e),
+f * 2
+https://dollchan.net/bytebeat/#4AAAA+kV9j00OgjAQhfee4m0grZFQagFjsN6EhAKeoEsO7/wI0Y1dTN98rzMvnfCAoVPlGPsyD4O3oyHdiR5JBWurgzTcGJNrH2whdJQZHWp1gTq3T3M5Jckg1DhlvEKe6PDGOlSiS0msr96evyaU8q5ZdiXEiGCxQWXH1sJWQg0zUQmMVkbcJWpe+tWMAq1zzmKAb/l+7rjZef/LGR/v/xsT7hRGZeaycFkl+wz/Bg
