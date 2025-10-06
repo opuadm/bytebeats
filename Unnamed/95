@@ -1,0 +1,2 @@
+(((hypot((t>>8-t<<2|(t>>6&t<<2))&(t>>6&t<<2)^(((t>>9&t>>8)&t<<2)),(t>>10&t<<2)^(t>>8&t<<2)*(t>>8&t>>6))) - ((t >> 8 & t << 2) ^ (t >> 6 ^ t << 2))) / (t >> 8 & t << 2))
+https://dollchan.net/bytebeat/#4AAAA+kVlizEKgDAMRa/yp5CIRe1QKpQepbObDl0ED29iKwhuLy/vM/N2HntlrjlHV1Pyl2EgQxH6HIWfaiVLpQejqWV+C3s1HjrrXETgoGPkjAhCRUrwgoLmglJ3mk74lXID
