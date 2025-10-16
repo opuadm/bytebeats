@@ -1,3 +1,9 @@
 a = ((((t>>8&t<<2)-(t>>7&t<<4)) * ((t >> 8 & t >> 4) ^ (t >> 6 & t >> 8))) | ((t >> 8 & t << 2) ^ sqrt(t >> 8 & t << 2))),
 (t >> 4) / ((((a * t) / t >> 2) >> 4) % (a >> 4))
 https://dollchan.net/bytebeat/#4AAAA+kVLVLBV0ACCEjs7C7USGxsjTV0Q2xzENtHUVNACypYo2NkpWCioKYAZJpoKcQoQMTOYmIUmUGkNqlIbGwUjkNLiwqISDHFNTR0uDZhx+mAXJALtKgFxwMJArRBJVQWgDJipCQA
+
+Variant 2:
+a = ((((t>>8&t<<2)-(t>>7&t<<4)) * ((t >> 8 & t >> 4) ^ (t >> 6 & t >> 8))) | ((t >> 8 & t << 2) ^ sqrt(t >> 8 & t << 2))),
+b = (t >> 4) / ((((a * t) / t >> 2) >> 4) % (a >> 4)),
+abs(b ^ a) / (b % a)
+https://dollchan.net/bytebeat/#4AAAA+kVlTjkOg0AM7HnFNKwwCkJCCLbY7FMieX+Q4DKPz9iIIsLVeC5b8cTAsVpzslIWmRzvjlcRjFQNtSIjIcAqeOHktovLQuv331oKFrce74/deJFH1/z0VTnHF8p75kvQjJ9iDyoBGdN2DI29GqFGUeUH
