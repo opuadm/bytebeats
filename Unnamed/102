@@ -1,0 +1,4 @@
+a = (t>>8)*((t>>9-t<<2+t<<4))/12,
+b = (((t>>9&t<<2^t)^t>>8)-t>>8)*(t>>6&t<<2),
+((t >> 8) * ((b % a) - a)) / (t >> 8)
+https://dollchan.net/bytebeat/#4AAAA+kU1i0EKgCAURPeeYjaFY4okEQbmUQQ9g/enr9VmZvHeq7ihe86RRo+/XE8pbDIH6fdgVRvGy9bBSmeZgfsyuXMSWiUeckYkjEQNCyrhZAiPnz0
