@@ -1,0 +1,7 @@
+a = ((t>>8<<2)*(t<<2>>4)*((((t>>8)+(t>>9)-(t>>6)))*(t>>8))),
+b = ((a>>t)|sqrt((a)>>(t>>4)))&(a>>t),
+c = (b / (sqrt(t >> a)*(t>>6&a<<2))),
+d = ((c ^ (t>>6^a>>8^b>>a^t>>b)) / 92893),
+e = ((a / d) / 938210)/(t>>10),
+(((e >> 8) & (e << 1) ^ ((t >> 4) / (e >> t)) * (t >> 8)) / (t >> 6)) * 2
+https://dollchan.net/bytebeat/#4AAAA+kUlTksOgyAQ3XuKWRmetbGiMZjQOQoJqAdoy9LDd4ZZzeN9yfQm5ypziNFjcFUO8yrIGY2Hnh1PPRugHqWBsSstnJkr7t/nWwWDWfVV9N6UsTvUVmgi10yVmClbz9Zn3dWys5UdlKgJScIhFeac5FkAye8+7ItYL9sV5mz0Evz8wqQ5uWMnX790JIB6EhgjzdBi2141ZI4qvQMZHdqG4a3x/g8
