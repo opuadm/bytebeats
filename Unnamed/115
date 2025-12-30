@@ -1,0 +1,2 @@
+-((t>>8)*6)^(((t>>9-t>>5)&t>>8)*((t>>8&t<<2)-(1.25*t>>8))/(t>>8&t<<2))^(t>>4<<2*t>>8)
+https://dollchan.net/bytebeat/#4AAAA+kXT1dAosbOz0NQy04zTALMtdYGEqaYaRBgirVZiY2OkqathqGdkqgWW0NRHkgBqBXJMgEyIJAA
