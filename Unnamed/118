@@ -1,0 +1,2 @@
+((t>>6&t<<2)*((t>>9&t<<2)&(t>>9^t<<1)*(t>>6-(t<<2&t>>8)*(t>>4&t>>2)))*t)/(128%t)
+https://dollchan.net/bytebeat/#4AAAA+kXT0CixszNTK7GxMdLU0gBxLCEcNTA7Dsg2BEqAFOlqgCTUgEwLiIgJiG2kqampVaKpr2FoZKFaogkA
